@@ -14,3 +14,10 @@ git submodule init
 ```
 nnoremap <leader>m :PreviewMarkdown<cr>
 ```
+
+## Requirements:
+
+Download Markdown.pl from [http://daringfireball.net/projects/markdown/](http://daringfireball.net/projects/markdown/) and put it in your ~/bin/ directory (or elsewhere, and update the Vimscript to aim correctly at it.)
+
+## Caveats:
+No syntax highlighting or other [Github-specific niceties](http://github.github.com/github-flavored-markdown/).
